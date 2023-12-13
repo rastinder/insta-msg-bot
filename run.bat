@@ -1,0 +1,1 @@
+gramaddict run --config accounts/brownmunde_95/config.yml

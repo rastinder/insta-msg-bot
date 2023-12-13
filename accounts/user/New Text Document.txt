@@ -1,0 +1,6 @@
+# Loop through each object in the JSON file
+for key in jsonData:
+    # Check if the object contains the "pm_sent" property
+    if "pm_sent" in jsonData[key]:
+        # Access the value of "pm_sent"
+        pmSent = jsonData[key]["pm_sent"]

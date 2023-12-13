@@ -1,0 +1,65 @@
+##############################################################################
+# For more information on filters, refer to: 
+# https://docs.gramaddict.org/#/configuration?id=available-filters
+#
+# Note: be sure to comment out any filter not used by adding a # in front
+# AGAIN: YOU DON'T HAVE TO DELETE THE LINE, BUT ONLY COMMENT IT WITH A #!
+##############################################################################
+
+## Filters on profile type
+skip_if_private: false
+skip_if_public: false
+skip_business: false
+skip_non_business: false
+skip_following: true
+skip_follower: true
+skip_if_link_in_bio: false
+follow_private_or_empty: true
+
+## Filters on profile stats
+min_followers: 0
+max_followers: 10500
+min_followings: 30
+max_followings: 3500
+#min_potency_ratio: 0.5
+#max_potency_ratio: 5
+#min_posts: 3
+mutual_friends: -1 # -1 for ignore that filter
+
+## Filters on biography and name
+blacklist_words: [single,married,taken,hubby,khan,egaged]
+blacklist_usernames: [singh,kumar,Bedi,Varma,Chowdhury,Gupta,sharma,Chopra,king,khan,mrs,genuineservice,motherof,mommyof,engaged,hubby,ring:@,𝒶𝓀𝑒𝓃]
+mandatory_words: [kaur,kor,k0r,k0ur,kour,jatti,sardarni,leen,kudi,ਕੌਰ,queen,ਜੱਟੀ,she/her,sherni,Jasmine,Amrita,Komal,janvi]
+mandatory_words1: [canidian,canada,alberta,bc,manitoba,nova scotia,ontario,saskatchewan,toronto,vancouver,montreal,victoria,calgary,ottawa,edmonton,winnipeg,mississauga,hamilton,surrey,saskatoon,kitchener,windsor,richmond,abbotsford,milton,prince george,halifax,laval,ਕੈਨੇਡ,british,columbia,bc,pushpin:AB, pushpin:BC, pushpin:MB, pushpin:NB, pushpin:NL, pushpin:NT, pushpin:NS, pushpin:NU, pushpin:ON, pushpin:PE, pushpin:QC, pushpin:SK, pushpin:YT,on:round_pushpin]
+#specific_alphabet: [LATIN, GREEK]
+#biography_language: [it, en]
+#biography_banned_language: [es, ch]
+
+## Filters for enabling comments
+# Action specific
+comment_hashtag_likers_top: false
+comment_hashtag_likers_recent: false
+comment_hashtag_posts_top: false
+comment_hashtag_posts_recent: false
+comment_place_likers_top: false
+comment_place_likers_recent: false
+comment_place_posts_top: false
+comment_place_posts_recent: false
+comment_blogger_followers: false
+comment_blogger_following: false
+comment_blogger_post_likers: false
+comment_blogger: false
+comment_interact_usernames: false
+comment_interact0_from_file: false
+comment_feed: false
+# Content specific
+comment_photos: false
+comment_videos: false
+comment_carousels: false
+
+## Filters for sending PM
+pm_to_private_or_empty: true
+
+## Filters on number of post likers
+#min_likers: 1
+#max_likers: 1000
